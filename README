@@ -12,8 +12,22 @@ And then type:
 
 C:
 
-After that, you'll be in the directory where everything is. After that, you can compile and link the program:
+After that, you'll be in the directory where everything is. You can then compile and link the program:
 
 tasm marquee
 tlink marquee
 marquee 
+
+Controls are:
+
+Movement -- 'w', 'a', 's', 'd' keys 
+
+Colors -- 'f' changes foreground color, 'b' changes background color.
+
+Pause/resume scrolling -- 'F1'
+
+Resizing -- 'Right shift' increases the size of the box, 'Left shift' decreases the size of the box.
+
+Scrolling speed -- 'CTRL-Up' speeds the text up by 80% of its previous value, 'CTRL-Down' slows the text down by 120% of its previous value.
+
+Exit -- 'Esc'
