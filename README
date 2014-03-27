@@ -1,1 +1,19 @@
-This is a test.
+This is a simple X86 Intel 16-bit Assembler program to create a box with different kinds of functionality (such as moving, changing colors, changing text
+scroll speed, rezing, etc.) Need the DosBox emulator in order to run the program in real mode.
+
+
+When you start DosBox, you need to mount a logical c drive for it to work on. Wherever you put the compiler, linker, and marquee.asm is where you need to
+mount it.
+For instance, if you mount it in your Program Files directory, type an instruction like this:
+
+mount c C:\Program Files
+
+And then type:
+
+C:
+
+After that, you'll be in the directory where everything is. After that, you can compile and link the program:
+
+tasm marquee
+tlink marquee
+marquee 
