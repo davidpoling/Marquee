@@ -1,5 +1,3 @@
-;David Poling
-;Program 2
 ;Program to draw a box on the console window and display several messages in a marquee style.
 
 StackSegment SEGMENT STACK
